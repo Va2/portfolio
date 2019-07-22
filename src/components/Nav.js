@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './Nav.css';
+
 const styles = {
     transition: 'background-color 500ms ease-out'
 }
@@ -32,7 +34,7 @@ class Nav extends Component {
                 }
                 style={{ ...styles }}
                 >
-                    <a className="navbar-brand" /*href="#"*/>
+                    <a className="navbar-brand text-uppercase" /*href="#"*/>
                         Vadim Brieven
                     </a>
                     <button
