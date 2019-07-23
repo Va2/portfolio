@@ -7,7 +7,7 @@ import DevicesImg from '../assets/img/responsive-devices.png';
 
 const Header = () => {
     return (
-      <section className="bg-header">
+      <header id="header" className="bg-header">
             <div className="container vh-100 d-flex h-100">
                 <div className="row justify-content-center align-self-center">
                     {/* COL 1 */}
@@ -17,25 +17,41 @@ const Header = () => {
 
                     {/* COL 2 */}
                     <div className="col-md-6 align-self-center">
+                        <h1>Web Developer</h1>
                         <h2>
-                        I am a Web Developer <br />
-                        & I love to{" "}
-                        <Typed
-                            strings={[
-                            "write clean code.",
-                            "discover new possibilities.",
-                            "create new functionalities.",
-                            "challenge myself."
-                            ]}
-                            typeSpeed={30}
-                            backSpeed={45}
-                            loop
-                        />
+                            I love to{" "}
+                            <Typed
+                                strings={[
+                                "write clean code.",
+                                "discover new possibilities.",
+                                "create new functionalities.",
+                                "challenge myself."
+                                ]}
+                                typeSpeed={55}
+                                backSpeed={45}
+                                loop
+                            />
                         </h2>
                     </div>
                 </div>
             </div>
-      </section>
+
+            <div className="container">
+                <div className="row">
+                    <div className="mx-auto social-icons">
+                        <a href="#">
+                            <i className="fab fa-linkedin fa-2x mx-1 social-icon"></i>
+                        </a>
+                        <a href="#">
+                            <i className="fab fa-github-square fa-2x mx-1 social-icon"></i>
+                        </a>
+                        <a href="#">
+                            <i className="fab fa-twitter-square fa-2x mx-1 social-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+      </header>
     );
 }
 

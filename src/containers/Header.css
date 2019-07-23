@@ -7,8 +7,27 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.social-icons {
+    margin-top: -60px;
+}
+
+.social-icon {
+    color: rgb(111, 45, 189);
+}
+.social-icon:hover {
+    color: rgba(111, 45, 189, .8);
+}
+
 @media only screen and (max-width: 767px) {
+    .bg-header h1,
     .bg-header h2 {
         text-align: center;
+        text-shadow: 1px 1px 1px #103b5b !important;
+    }
+    .bg-header h1 {
+        font-size: 38px;
+    }
+    .bg-header h2 {
+        font-size: 23px;
     }
 }

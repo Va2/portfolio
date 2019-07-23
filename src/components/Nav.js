@@ -25,14 +25,14 @@ class Nav extends Component {
 
     render() {
         return (
-            <div className="test">
+            <div className="container">
                 <nav
-                className={
-                    this.state.bgColor === "white"
-                    ? "navbar fixed-top navbar-expand-md navbar-light bg-white shadow-sm"
-                    : "navbar fixed-top navbar-expand-md navbar-light"
-                }
-                style={{ ...styles }}
+                    className={
+                        this.state.bgColor === "white"
+                        ? "navbar fixed-top navbar-expand-md navbar-light bg-white shadow-sm"
+                        : "navbar fixed-top navbar-expand-md navbar-light"
+                    }
+                    style={{ ...styles }}
                 >
                     <a className="navbar-brand text-uppercase" /*href="#"*/>
                         Vadim Brieven
@@ -53,10 +53,10 @@ class Nav extends Component {
                         id="navbarNavAltMarkup"
                     >
                         <div className="navbar-nav">
-                            <a className="nav-item nav-link active" /*href="#"*/>
+                            <a className="nav-item nav-link active" href="#header">
                                 Home <span className="sr-only">(current)</span>
                             </a>
-                            <a className="nav-item nav-link" /*href="#"*/>
+                            <a className="nav-item nav-link" href="#experience">
                                 Experiences
                             </a>
                             <a className="nav-item nav-link" /*href="#"*/>

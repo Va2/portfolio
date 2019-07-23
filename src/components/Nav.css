@@ -2,3 +2,7 @@
     font-size: 35px !important;
     text-shadow: 1px 1px 1px #103b5b !important;
 }
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(111, 45, 189);
+}

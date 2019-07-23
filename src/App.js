@@ -4,13 +4,14 @@ import './App.css';
 
 import Nav from './components/Nav';
 import Header from './containers/Header';
+import Experience from './containers/Experience';
 
 function App() {
   return (
     <Fragment>
       <Nav />
       <Header />
-      {/* <Header /> // Test BG animation on scroll */}
+      <Experience />
     </Fragment>
   );
 }
