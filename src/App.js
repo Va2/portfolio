@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 
 import './App.css';
 
-import Nav from './components/Nav';
-import Header from './containers/Header';
-import Experience from './containers/Experience';
+import Nav from './components/Nav/Nav';
+import Header from './containers/Header/Header';
+import Experience from './containers/Experience/Experience';
 
 function App() {
   return (

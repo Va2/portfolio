@@ -7,6 +7,11 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bg-header h1,
+.bg-header h2 {
+    text-shadow: 1px 1px 1px #103b5b !important;
+}
+
 .social-icons {
     margin-top: -60px;
 }
@@ -22,7 +27,6 @@
     .bg-header h1,
     .bg-header h2 {
         text-align: center;
-        text-shadow: 1px 1px 1px #103b5b !important;
     }
     .bg-header h1 {
         font-size: 38px;

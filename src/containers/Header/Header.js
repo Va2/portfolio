@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 import './Header.css';
 
-import DevicesImg from '../assets/img/responsive-devices.png';
+import DevicesImg from '../../assets/img/responsive-devices.png';
 
 const Header = () => {
     return (
