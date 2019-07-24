@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import MolenGeekLogo from '../../assets/img/molengeek-logo.png';
-
 const ExperienceInfo = (props) => {
     return (
         <div className="col-md-8">
