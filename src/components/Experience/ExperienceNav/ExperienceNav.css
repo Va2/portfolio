@@ -18,8 +18,13 @@
 }
 #experience ul li {
     list-style: none;
-    margin: 0 8px;
+    margin: 0 12px;
 }
 #experience ul li.active {
-    border-bottom: 1px solid #5aaa9f;
+    border-bottom: 1px solid #41998d;
+    color: #41998d;
+    /* font-size: 1.1rem; */
+    -webkit-transition: all 3s;
+    /* For Safari 3.1 to 6.0 */
+    transition: all 3s;
 }

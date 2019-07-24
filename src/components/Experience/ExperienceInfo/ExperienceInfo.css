@@ -4,3 +4,27 @@
 .job .period {
     color: #D3D3D3;
 }
+.job a {
+    /* display: flex;
+    justify-content: center; */
+    padding: 15px 32px;
+    border-radius: 5px;
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(76, 162, 205, 1), rgba(103, 178, 111, 1));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(76, 162, 205, 1), rgba(103, 178, 111, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.job a:hover {
+    padding: 15px 32px;
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(76, 162, 205, .9), rgba(103, 178, 111, .9));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(76, 162, 205, .9), rgba(103, 178, 111, .9));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    text-decoration: none;
+}

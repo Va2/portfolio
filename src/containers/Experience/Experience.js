@@ -107,26 +107,25 @@ class Experience extends Component {
     render() {
         return (
           <section id="experience">
-            <div className="container">
-              <div className="row p-5">
+            <div className="container p-5">
                 <h3>Experience</h3>
-                
-                <ExperienceNav
-                  currentIndex={this.state.currentIndex}
-                  maxIndex={this.state.maxIndex}
-                  prevXp={this.prevExperienceHandler}
-                  nextXp={this.nextExperienceHandler}
-                />
+                <div className="row">
+                    <ExperienceNav
+                    currentIndex={this.state.currentIndex}
+                    maxIndex={this.state.maxIndex}
+                    prevXp={this.prevExperienceHandler}
+                    nextXp={this.nextExperienceHandler}
+                    />
 
-                <ExperienceInfo
-                  date={this.state.monthAndYear}
-                  logo={this.state.logoUrl}
-                  company={this.state.company}
-                  websiteUrl={this.state.websiteUrl}
-                  jobStatus={this.state.jobStatus}
-                  description={this.state.description}
-                />
-              </div>
+                    <ExperienceInfo
+                    date={this.state.monthAndYear}
+                    logo={this.state.logoUrl}
+                    company={this.state.company}
+                    websiteUrl={this.state.websiteUrl}
+                    jobStatus={this.state.jobStatus}
+                    description={this.state.description}
+                    />
+                </div>
             </div>
           </section>
         );

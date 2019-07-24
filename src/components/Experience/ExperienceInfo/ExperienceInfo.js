@@ -4,7 +4,7 @@ import './ExperienceInfo.css';
 
 const ExperienceInfo = (props) => {
     return (
-        <div className="col-md-8 job">
+        <div className="col-xl-8 mt-3 job">
             <img 
                 className="logo img-fluid"
                 src={props.logo}
@@ -12,11 +12,22 @@ const ExperienceInfo = (props) => {
             />
             <p className="period">{props.date}</p>
             {/* <h3 className="company">{props.company}</h3> */}
-            <h4 className="status">{props.jobStatus}</h4>
+            <h4 className="status">
+                {props.jobStatus}
+                <br />@ {props.company}
+            </h4>
             <p className="description">
                 {props.description}
             </p>
-            <a href={props.websiteUrl} target="_blank">Website</a>
+            <div className="text-center my-5">
+                <a 
+                    href={props.websiteUrl}
+                    target="_blank"
+                    className="text-uppercase text-center"
+                >
+                    {props.company} Website
+                </a>
+            </div>
         </div>
     );
 }

@@ -4,7 +4,7 @@ import './ExperienceNav.css'
 
 const ExperienceNav = (props) => {
     return (
-      <div className="col-md-4 text-center d-flex h-100">
+      <div className="col-xl-4 text-center d-flex mt-4">
         <button
           disabled={props.currentIndex <= 0}
           onClick={() => props.prevXp()}
