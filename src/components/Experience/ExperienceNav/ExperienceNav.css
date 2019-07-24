@@ -1,0 +1,25 @@
+#experience button {
+    background: none;
+    border: none;
+    color: #5aaa9f;
+    font-size: 30px;
+}
+#experience button:hover {
+    background: none;
+    border: none;
+    color: #41998d;
+    font-size: 30.5px;
+}
+#experience button:disabled {
+    color: #D3D3D3;
+}
+#experience ul {
+    display: flex
+}
+#experience ul li {
+    list-style: none;
+    margin: 0 8px;
+}
+#experience ul li.active {
+    border-bottom: 1px solid #5aaa9f;
+}
