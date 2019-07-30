@@ -35,7 +35,7 @@ const experiences = [
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi provident numquam eveniet quas animi? Commodi labore blanditiis asperiores, quaerat itaque eligendi excepturi nulla assumenda, aliquam facilis explicabo quibusdam obcaecati sapiente?'
     },
     {
-        monthAndYear: 'September - July 2018',
+        monthAndYear: 'September 2017 - July 2018',
         logoUrl: BeCodeLogo,
         jobStatus: 'Web Developer trainee',
         company: 'BeCode',
@@ -108,24 +108,25 @@ class Experience extends Component {
         return (
           <section id="experience">
             <div className="container p-5">
-                <h3>Experience</h3>
-                <div className="row">
-                    <ExperienceNav
-                    currentIndex={this.state.currentIndex}
-                    maxIndex={this.state.maxIndex}
-                    prevXp={this.prevExperienceHandler}
-                    nextXp={this.nextExperienceHandler}
-                    />
+              <h3>Experience</h3>
+              <div className="row">
+                <ExperienceNav
+                  currentIndex={this.state.currentIndex}
+                  maxIndex={this.state.maxIndex}
+                  prevXp={this.prevExperienceHandler}
+                  nextXp={this.nextExperienceHandler}
+                  logo={this.state.logoUrl}
+                />
 
-                    <ExperienceInfo
-                    date={this.state.monthAndYear}
-                    logo={this.state.logoUrl}
-                    company={this.state.company}
-                    websiteUrl={this.state.websiteUrl}
-                    jobStatus={this.state.jobStatus}
-                    description={this.state.description}
-                    />
-                </div>
+                <ExperienceInfo
+                  date={this.state.monthAndYear}
+                  logo={this.state.logoUrl}
+                  company={this.state.company}
+                  websiteUrl={this.state.websiteUrl}
+                  jobStatus={this.state.jobStatus}
+                  description={this.state.description}
+                />
+              </div>
             </div>
           </section>
         );

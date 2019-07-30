@@ -59,13 +59,13 @@ class Nav extends Component {
                             <a className="nav-item nav-link" href="#experience">
                                 Experiences
                             </a>
-                            <a className="nav-item nav-link" /*href="#"*/>
+                            <a className="nav-item nav-link" href="#projects">
                                 Projects
                             </a>
-                            <a className="nav-item nav-link" /*href="#"*/>
+                            <a className="nav-item nav-link" href="#skills">
                                 Skills
                             </a>
-                            <a className="nav-item nav-link" /*href="#"*/>
+                            <a className="nav-item nav-link" href="#contact">
                                 Contact
                             </a>
                         </div>

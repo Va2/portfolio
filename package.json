@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mdbreact": "^4.18.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-typed": "^1.1.2"
   },
@@ -13,9 +15,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": ["eslint:recommended", "plugin:react/recommended"]
   },
   "browserslist": {
     "production": [
@@ -29,8 +28,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-plugin-react": "^7.14.3"
-  }
+  "devDependencies": {}
 }

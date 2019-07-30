@@ -4,14 +4,13 @@ import './ExperienceInfo.css';
 
 const ExperienceInfo = (props) => {
     return (
-        <div className="col-xl-8 mt-3 job">
+        <div className="col-lg-6 offset-lg-2 mt-3 job">
             <img 
                 className="logo img-fluid"
                 src={props.logo}
                 alt="MolenGeek | Coding School training"
             />
             <p className="period">{props.date}</p>
-            {/* <h3 className="company">{props.company}</h3> */}
             <h4 className="status">
                 {props.jobStatus}
                 <br />@ {props.company}

@@ -1,15 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import './ExperienceNav.css'
 
 const ExperienceNav = (props) => {
     return (
-      <div className="col-xl-4 text-center d-flex mt-4">
+      <div className="col-lg-4 text-center d-flex mt-4">
         <button
           disabled={props.currentIndex <= 0}
           onClick={() => props.prevXp()}
         >
-          <i class="fas fa-chevron-left" />
+          <i className="fas fa-chevron-left" />
         </button>
 
         <ul className="m-auto pl-0">
@@ -24,8 +24,14 @@ const ExperienceNav = (props) => {
           disabled={props.currentIndex == props.maxIndex - 1}
           onClick={() => props.nextXp()}
         >
-          <i class="fas fa-chevron-right" />
+          <i className="fas fa-chevron-right" />
         </button>
+
+        {/* <img
+          className="logo img-fluid d-none d-md-inline"
+          src={props.logo}
+          alt="MolenGeek | Coding School training"
+        /> */}
       </div>
     );
 }
