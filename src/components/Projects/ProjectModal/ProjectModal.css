@@ -1,0 +1,18 @@
+.rgba-gradient {
+    border-radius: 5px;
+    /* fallback for old browsers */
+    background: #67B26F;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(76, 162, 205, 1), rgba(103, 178, 111, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(76, 162, 205, 1), rgba(103, 178, 111, 1));
+}
+
+.rgba-gradient:hover {
+    /* fallback for old browsers */
+    background: #67B26F;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(76, 162, 205, .9), rgba(103, 178, 111, .9));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(76, 162, 205, .9), rgba(103, 178, 111, .9));
+}

@@ -2,6 +2,7 @@ import React from 'react';
 
 // MDBreact
 import { MDBMask, MDBView, MDBCol } from 'mdbreact';
+import ProjectModal from '../ProjectModal/ProjectModal';
 
 const ProjectCard = props => {
   return (
@@ -9,9 +10,15 @@ const ProjectCard = props => {
       <MDBView hover>
         <img src={props.screenshot} className="img-fluid" alt="" />
         <MDBMask className="text-center px-4" overlay="teal-strong">
-          <h4 className="white-text mt-5">{props.name}</h4>
+          <h4 className="white-text mt-4">{props.name}</h4>
           <br />
           <p>#{props.stackUsed.join(" #")}</p>
+          <ProjectModal
+            name={props.name}
+            stackUsed={props.stackUsed}
+            description={props.description}
+            projectUrl={props.projectUrl}
+          />
         </MDBMask>
       </MDBView>
     </MDBCol>
