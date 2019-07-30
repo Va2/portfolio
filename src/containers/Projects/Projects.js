@@ -63,7 +63,7 @@ class Projects extends Component {
         return (
           <section id="projects">
             <MDBContainer className="mt-5">
-              <h3>Projects</h3>
+              <h3 className="h3-ml">Projects</h3>
               <MDBRow>
 
                 {projects.map(project => {
