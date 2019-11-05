@@ -22,6 +22,7 @@ const ExperienceInfo = (props) => {
                 <a 
                     href={props.websiteUrl}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-uppercase text-center"
                 >
                     {props.company} Website

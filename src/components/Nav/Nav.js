@@ -34,7 +34,7 @@ class Nav extends Component {
               }
               style={{ ...styles }}
             >
-              <a className="navbar-brand text-uppercase" /*href="#"*/>
+              <a className="navbar-brand text-uppercase" href="#header">
                 Vadim Brieven
               </a>
               <button

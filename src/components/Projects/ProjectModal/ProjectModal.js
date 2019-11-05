@@ -7,7 +7,7 @@ import {
   MDBModal,
   MDBModalBody,
   MDBModalHeader,
-  MDBModalFooter
+  // MDBModalFooter
 } from "mdbreact";
 
 import './ProjectModal.css'
@@ -46,8 +46,9 @@ class ProjectModal extends Component {
             <p>
                 {this.props.description}
             </p>
-            <a>
-                {this.props.projectUrl}
+            <a href={this.props.projectUrl}>
+                {/* {this.props.projectUrl} */}
+                Online Project
             </a>
           </MDBModalBody>
           {/* <MDBModalFooter>

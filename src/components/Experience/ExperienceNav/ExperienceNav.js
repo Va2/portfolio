@@ -21,7 +21,7 @@ const ExperienceNav = (props) => {
         </ul>
 
         <button
-          disabled={props.currentIndex == props.maxIndex - 1}
+          disabled={props.currentIndex === props.maxIndex - 1}
           onClick={() => props.nextXp()}
         >
           <i className="fas fa-chevron-right" />

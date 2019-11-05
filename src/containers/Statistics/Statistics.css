@@ -88,9 +88,9 @@
     color: white;
 }
 
-.projectFactsWrap .item:hover span {
+/* .projectFactsWrap .item:hover span {
     background: white;
-}
+} */
 
 @media (max-width: 786px) {
     .projectFactsWrap .item {

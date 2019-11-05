@@ -39,14 +39,19 @@ const Header = () => {
             <div className="container">
                 <div className="row">
                     <div className="mx-auto social-icons">
-                        <a href="#">
-                            <i className="fab fa-linkedin fa-2x mx-1 social-icon"></i>
+                        <a href="https://www.linkedin.com/in/vadim-brieven/"       target="_blank"
+                            rel="noopener noreferrer">
+                                <i className="fab fa-linkedin fa-2x mx-1 social-icon"></i>
                         </a>
-                        <a href="#">
-                            <i className="fab fa-github-square fa-2x mx-1 social-icon"></i>
+                        <a href="https://github.com/Va2/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i className="fab fa-github-square fa-2x mx-1 social-icon"></i>
                         </a>
-                        <a href="#">
-                            <i className="fab fa-twitter-square fa-2x mx-1 social-icon"></i>
+                        <a href="https://twitter.com/vadim_brieven/"  
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <i className="fab fa-twitter-square fa-2x mx-1 social-icon"></i>
                         </a>
                     </div>
                 </div>
