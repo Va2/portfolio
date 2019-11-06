@@ -80,7 +80,8 @@ class Statistics extends Component {
               <span></span>
               <div class="typer_wrapper">
                 <p>
-                  Known{" "}
+                  Known
+                  <br />{" "}
                   <Typed
                     strings={["Languages", "Frameworks"]}
                     typeSpeed={65}
@@ -100,7 +101,11 @@ class Statistics extends Component {
                 2
               </p>
               <span></span>
-              <p>Known Web Technologies</p>
+              <p>
+                Known Web
+                <br />
+                Technologies
+              </p>
             </div>
             <div
               className="item wow fadeInUpBig animated animated"
@@ -112,7 +117,11 @@ class Statistics extends Component {
                 4
               </p>
               <span></span>
-              <p>Projects done</p>
+              <p>
+                Projects
+                <br />
+                done
+              </p>
             </div>
             <div
               className="item wow fadeInUpBig animated animated"
@@ -124,7 +133,11 @@ class Statistics extends Component {
                 2
               </p>
               <span></span>
-              <p>Years of Experience</p>
+              <p>
+                Year of
+                <br />
+                Experience
+              </p>
             </div>
           </div>
         </div>

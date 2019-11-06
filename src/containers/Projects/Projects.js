@@ -58,24 +58,22 @@ const projects = [
 class Projects extends Component {
     render() {
         return (
-          <section id="projects">
-            <MDBContainer className="my-5">
+          <section id="projects" className="py-5">
+            <MDBContainer>
               <h3 className="h3-ml">Projects</h3>
               <MDBRow>
-
                 {projects.map(project => {
                   return (
-                      <ProjectCard
-                        key={project.id}
-                        screenshot={project.screenshot}
-                        name={project.name}
-                        stackUsed={project.stackArr}
-                        description={project.description}
-                        projectUrl={project.projectUrl}
-                      />
+                    <ProjectCard
+                      key={project.id}
+                      screenshot={project.screenshot}
+                      name={project.name}
+                      stackUsed={project.stackArr}
+                      description={project.description}
+                      projectUrl={project.projectUrl}
+                    />
                   );
                 })}
-
               </MDBRow>
             </MDBContainer>
           </section>
