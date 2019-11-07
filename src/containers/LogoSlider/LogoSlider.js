@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Typed from 'react-typed';
 
-import "./LogoSlider.css";
+import './LogoSlider.css';
 
 // SVG images
-import bootstrapSVG from "../../assets/img/bootstrap-solid.svg";
+import bootstrapSVG from '../../assets/img/bootstrap-solid.svg';
 import javascriptSVG from '../../assets/img/javascript.svg';
 import reactSVG from '../../assets/img/iconfinder_React.js_logo_1174949.svg';
 import npmSVG from '../../assets/img/npm-logo-red.svg';
@@ -14,6 +14,8 @@ import photoshopSVG from '../../assets/img/photoshop.svg';
 
 // PNG images
 import vscodePNG from '../../assets/img/visual-studio-code-icon.png';
+import gitPNG from '../../assets/img/git.png';
+import githubPNG from '../../assets/img/github.png';
 import cssPNG from '../../assets/img/css3.png';
 import sassPNG from '../../assets/img/sass.png';
 import gruntPNG from '../../assets/img/grunt.png';
@@ -28,7 +30,7 @@ class LogoSlider extends Component {
         return (
             <section class="slider-container">
                 <div className="h4-container">
-                    <h4>
+                    <h4 className="logo-slider-title">
                         I like to use following{" "}
                         <Typed
                             strings={[
@@ -46,16 +48,42 @@ class LogoSlider extends Component {
                 <div className="slider">
                     <div class="slide-track">
                         <div class="slide">
-                            <img className="resize-logo" src={vscodePNG} alt="Visual Studio Code editor" />
+                            <a href="https://code.visualstudio.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="resize-logo" src={vscodePNG} alt="Visual Studio Code editor" />
+                            </a>
                         </div>
                         <div class="slide">
-                            <img className="resize-npm-logo" src={npmSVG} alt="NPM - Node Package Manager" />
+                            <a href="https://www.npmjs.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="resize-npm-logo" src={npmSVG} alt="NPM - Node Package Manager" />
+                            </a>
                         </div>
                         <div class="slide">
-                            <img className="resize-logo" src={webpackSVG} alt="Webpack" />
+                            <a href="https://webpack.js.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="resize-logo" src={webpackSVG} alt="Webpack" />
+                            </a>
                         </div>
                         <div class="slide">
-                            <img className="resize-logo" src={gruntPNG} alt="Grunt" />
+                            <a href="https://gruntjs.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="resize-logo" src={gruntPNG} alt="Grunt" />
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <img className="resize-git-logo" src={gitPNG} alt="Git" />
+                        </div>
+                        <div class="slide">
+                            <img className="resize-logo" src={githubPNG} alt="GitHub Octocat" />
                         </div>
                         <div class="slide">
                                 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="123.75" height="48" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" />
