@@ -1,127 +1,41 @@
 import React, { Component } from 'react';
-import $ from "jquery";
 
 import './Skills.css';
 
 class Skills extends Component {
-    componentDidMount() {
-        var lang = {
-          html: "95%",
-          css: "95%",
-          bootstrap: "90%",
-          javascript: "60%",
-          react: "65%",
-          php: "55%",
-          git: "50%"
-        };
-
-        var multiply = 4;
-
-        $.each(lang, function(language, pourcent) {
-          var delay = 700;
-
-          setTimeout(function() {
-            $("#" + language + "-pourcent").html(pourcent);
-          }, delay * multiply);
-
-          multiply++;
-        });
-    }
-
     render() {
         return (
-            // <section id="skills">
-                <ul class="skills-bar-container">
+            <section id="skills">
+                <ul>
                     <li>
-                        <div class="progressbar-title">
-                            <h3>HTML</h3>
-                            <span class="percent" id="html-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progressorange"
-                                id="progress-html"
-                            ></span>
-                        </div>
+                        <h3>HTML <span className="float-right percent">95%</span><span className="bar"><span className="html"></span></span></h3>
                     </li>
                     <li>
-                        <div class="progressbar-title">
-                            <h3>CSS / SASS</h3>
-                            <span class="percent" id="css-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progresspink"
-                                id="progress-css"
-                            ></span>
-                        </div>
+                        <h3>CSS / Sass <span className="float-right percent">95%</span><span className="bar"><span className="css"></span></span></h3>
                     </li>
                     <li>
-                        <div class="progressbar-title">
-                            <h3>Bootstrap</h3>
-                            <span class="percent" id="bootstrap-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progresspurpleBS"
-                                id="progress-bootstrap"
-                            ></span>
-                        </div>
+                        <h3>Bootstrap <span className="float-right percent">90%</span><span className="bar"><span className="bootstrap"></span></span></h3>
                     </li>
-
                     <li>
-                        <div class="progressbar-title">
-                            <h3>JavaScript</h3>
-                            <span class="percent" id="javascript-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progressyellow"
-                                id="progress-javascript"
-                            ></span>
-                        </div>
+                        <h3>JavaScript <span className="float-right percent">60%</span><span className="bar"><span className="js"></span></span></h3>
                     </li>
-
                     <li>
-                        <div class="progressbar-title">
-                            <h3>ReactJS</h3>
-                            <span class="percent" id="react-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progressblue"
-                                id="progress-react"
-                            ></span>
-                        </div>
+                        <h3>ReactJS <span className="float-right percent">65%</span><span className="bar"><span className="react"></span></span></h3>
                     </li>
-
                     <li>
-                        <div class="progressbar-title">
-                            <h3>PHP</h3>
-                            <span class="percent" id="php-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progresspurple"
-                                id="progress-php"
-                            ></span>
-                        </div>
+                        <h3>WordPress Dev <span className="float-right percent">80%</span><span className="bar"><span className="wp"></span></span></h3>
                     </li>
-
                     <li>
-                        <div class="progressbar-title">
-                            <h3>Git & GitHub</h3>
-                            <span class="percent" id="git-pourcent"></span>
-                        </div>
-                        <div class="bar-container">
-                            <span
-                                class="progressbar progressgit"
-                                id="progress-git"
-                            ></span>
-                        </div>
+                        <h3>PHP <span className="float-right percent">50%</span><span className="bar"><span className="php"></span></span></h3>
+                    </li>
+                    <li>
+                        <h3>SQL & MySQL <span className="float-right percent">45%</span><span className="bar"><span className="mysql"></span></span></h3>
+                    </li>
+                    <li>
+                        <h3>Git & GitHub <span className="float-right percent">50%</span><span className="bar"><span className="git"></span></span></h3>
                     </li>
                 </ul>
-            /* </section> */
+            </section>
         );
     }
 }
