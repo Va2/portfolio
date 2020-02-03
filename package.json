@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Va2/portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "react-typed": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -29,5 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
