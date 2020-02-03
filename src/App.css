@@ -5,4 +5,21 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+header {
+    height: 100%;
+}
+
+.section-title {
+    margin: 0 auto 40px auto;
+    text-align: center;
+    color: #5aaa9f;
+    font-family: "Effra", Helvetica, sans-serif;
 }

@@ -23,12 +23,13 @@ const Header = () => {
                             <Typed
                                 strings={[
                                 "write clean code.",
-                                "discover new possibilities.",
-                                "create new functionalities.",
-                                "challenge myself."
-                                ]}
-                                typeSpeed={55}
-                                backSpeed={45}
+                                "learn new technologies.",
+                                // "discover new possibilities.",
+                                "develop elegant sites.",
+                                // "create new functionalities.",
+                                "challenge myself."]}
+                                typeSpeed={85}
+                                backSpeed={65}
                                 loop
                             />
                         </h2>

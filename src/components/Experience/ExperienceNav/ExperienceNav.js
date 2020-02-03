@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ExperienceNav.css'
+// import './ExperienceNav.css'
 
 const ExperienceNav = (props) => {
     return (

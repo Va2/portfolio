@@ -2,11 +2,45 @@
     box-shadow: none;
 }
 
+.bg-gradient {
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .navbar-brand {
-    font-size: 35px !important;
-    text-shadow: 1px 1px 1px #103b5b !important;
+    font-size: 22px !important;
+    font-family: 'Press Start 2P', cursive;
+    /* text-shadow: 1px 1px 1px #103b5b !important; */
+    color: #3D4351 !important;
+    line-height: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 8px 0;
+    margin: 0 .5rem;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: rgb(111, 45, 189);
+    color: #3D4351 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: 1px solid #3D4351;
+        -webkit-transition:border-bottom .8s;
+        -moz-transition:border-bottom .8s;
+        -ms-transition:border-bottom .8s;
+        -o-transition:border-bottom .8s;
+        transition:border-bottom .8s;
+    }
 }

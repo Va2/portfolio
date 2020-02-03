@@ -43,19 +43,21 @@ class ProjectModal extends Component {
             {this.props.name}
           </MDBModalHeader>
           <MDBModalBody>
-            <p>
-                {this.props.description}
+            <p className="text-justify">{this.props.projectType}</p>
+            <p className="text-justify">
+              {this.props.description}
             </p>
-            <a href={this.props.projectUrl}>
-                {/* {this.props.projectUrl} */}
-                Online Project
+            <p className="text-justify">
+              #{this.props.stackUsed.join(" #")}
+            </p>
+            <a href={this.props.projectUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link">
+                {this.props.projectUrl}
+                {/* Online Project */}
             </a>
           </MDBModalBody>
-          {/* <MDBModalFooter>
-            <MDBBtn color="secondary" onClick={this.toggle}>
-              Close
-            </MDBBtn>
-          </MDBModalFooter> */}
         </MDBModal>
       </MDBContainer>
     );

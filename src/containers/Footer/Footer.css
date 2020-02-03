@@ -1,0 +1,55 @@
+footer {
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
+    padding: 0 20px;
+    height: 38px;
+    font-size: 12px;
+    color: #3D4351;
+}
+
+footer p {
+    margin: auto 0;
+    align-items: center;
+    text-align: center;
+}
+
+footer p a {
+    color: #3D4351;
+}
+
+/* Heart shape */
+.heart {
+    background-color: #3D4351;
+    display: inline-block;
+    height: 6px;
+    margin: 0 4px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 6px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: #3D4351;
+    border-radius: 50%;
+    height: 6px;
+    position: absolute;
+    width: 6px;
+}
+
+.heart:before {
+    top: -3px;
+    left: 0;
+}
+
+.heart:after {
+    left: 3px;
+    top: 0;
+}

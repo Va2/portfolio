@@ -28,7 +28,7 @@ import adobeXDPNG from '../../assets/img/adobeXD.png';
 class LogoSlider extends Component {
     render() {
         return (
-            <section class="slider-container">
+            <section className="slider-container">
                 <div className="h4-container">
                     <h4 className="logo-slider-title">
                         I like to use following{" "}
@@ -37,17 +37,18 @@ class LogoSlider extends Component {
                             "languages",
                             "frameworks",
                             "libraries",
+                            "CMS",
                             "tools"
                             ]}
-                            typeSpeed={65}
-                            backSpeed={55}
+                            typeSpeed={85}
+                            backSpeed={65}
                             loop
                         />
                     </h4>
                 </div>
                 <div className="slider">
-                    <div class="slide-track">
-                        <div class="slide">
+                    <div className="slide-track">
+                        <div className="slide">
                             <a href="https://code.visualstudio.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -55,7 +56,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={vscodePNG} alt="Visual Studio Code editor" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.npmjs.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -63,7 +64,7 @@ class LogoSlider extends Component {
                                 <img className="resize-npm-logo" src={npmSVG} alt="NPM - Node Package Manager" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://webpack.js.org/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -71,7 +72,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={webpackSVG} alt="Webpack" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://gruntjs.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -79,7 +80,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={gruntPNG} alt="Grunt" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://git-scm.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -87,7 +88,7 @@ class LogoSlider extends Component {
                                 <img className="resize-git-logo" src={gitPNG} alt="Git" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://github.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -95,7 +96,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={githubPNG} alt="GitHub Octocat" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.w3.org/html/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -103,7 +104,7 @@ class LogoSlider extends Component {
                                 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="123.75" height="48" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.w3.org/Style/CSS/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -111,7 +112,7 @@ class LogoSlider extends Component {
                                 <img className="resize-css-logo" src={cssPNG} alt="CSS3 - Cascading Style Sheet" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://getbootstrap.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -120,7 +121,7 @@ class LogoSlider extends Component {
 
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://sass-lang.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -128,7 +129,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={sassPNG} alt="Sass" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.w3.org/wiki/JavaScript_best_practices"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -136,7 +137,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={javascriptSVG} alt="JavaScript" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://reactjs.org/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -144,7 +145,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={reactSVG} alt="React JS" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://wordpress.org/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -153,7 +154,7 @@ class LogoSlider extends Component {
 
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.php.net/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -161,7 +162,7 @@ class LogoSlider extends Component {
                                 <img className="resize-php-logo" src={phpSVG} alt="PHP" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://mariadb.org/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -169,7 +170,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={mariaDBPNG} alt="Maria DB (database)" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.mysql.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -177,7 +178,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={mysqlPNG} alt="MySQL database" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.mamp.info/en/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -185,7 +186,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={mampPNG} alt="MAMP" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.adobe.com/be_en/products/xd.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -193,7 +194,7 @@ class LogoSlider extends Component {
                                 <img className="resize-logo" src={adobeXDPNG} alt="Adobe XD" />
                             </a>
                         </div>
-                        <div class="slide">
+                        <div className="slide">
                             <a href="https://www.adobe.com/be_en/products/photoshop.html"
                                 target="_blank"
                                 rel="noopener noreferrer"

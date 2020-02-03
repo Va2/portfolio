@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ExperienceInfo.css';
+// import './ExperienceInfo.css';
 
 const ExperienceInfo = (props) => {
     return (

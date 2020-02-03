@@ -16,3 +16,15 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, rgba(76, 162, 205, .9), rgba(103, 178, 111, .9));
 }
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-content {
+    color: #3D4351;
+}
+
+.project-link {
+    color: #5aaa9f;
+}

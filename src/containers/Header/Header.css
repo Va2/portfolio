@@ -9,18 +9,26 @@
 
 .bg-header h1,
 .bg-header h2 {
+    font-family: 'Press Start 2P', cursive;
     text-shadow: 1px 1px 1px #103b5b !important;
+    color: #3D4351;
+}
+.bg-header h1 {
+    font-size: 28px;
+}
+.bg-header h2 {
+    font-size: 14px;
 }
 
 .social-icons {
     margin-top: -60px;
 }
-
 .social-icon {
-    color: rgb(111, 45, 189);
+    color: rgba(61,67,81,1);
 }
 .social-icon:hover {
-    color: rgba(111, 45, 189, .8);
+    color: rgba(61,67,81,.8);
+    transition: 0.3s;
 }
 
 @media only screen and (max-width: 767px) {
@@ -29,9 +37,18 @@
         text-align: center;
     }
     .bg-header h1 {
-        font-size: 38px;
+        font-size: 24px;
     }
     .bg-header h2 {
-        font-size: 23px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .bg-header h1 {
+        font-size: 20px;
+    }
+    .bg-header h2 {
+        font-size: 7px;
     }
 }

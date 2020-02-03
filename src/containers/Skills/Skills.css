@@ -1,16 +1,23 @@
 #skills *{
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-
-    font-family: sans-serif;
-    color: aquamarine;
 }
 
 #skills ul {
+    font-family: sans-serif;
+    list-style: none;
     width: 400px;
     min-width: 65%;
-    margin: 60px auto;
+    margin: 96px auto;
+    color: #3D4351;
+}
+
+@media only screen and (max-width: 400px) {
+    #skills ul {
+        width: 270px;
+        min-width: 65%;
+        margin: 96px auto;
+    }
 }
 
 #skills ul li {
